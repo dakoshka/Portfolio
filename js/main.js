@@ -14,7 +14,7 @@ $buttonGroup.on('click', 'button', function (event) {
   });
 });
 
-$('button[data-filter=".ads"]').click();
+$('button[data-filter=".flyers"]').click();
 
 $('[data-fancybox="images"]').fancybox({
   buttons: [
