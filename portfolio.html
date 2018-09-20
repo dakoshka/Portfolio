@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> portfolio </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header id="home">
+        <nav class="navbar navbar-expand-lg fixed-top nav-bgColor">
+            <div class="container">
+                <a class="navbar-brand text-uppercase nav-txt" href="#home"> <img class="logo" src="img/logo6.svg">
+                    <h5 class="align-bottom text-capitalize font-weight-normal"> Dako <br> Sidamonidze </h5>
+                </a>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav text-uppercase text-center">
+                        <li class="nav-item">
+                            <a class="nav-link nav-active" href="#home"> home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about"> about </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio"> portfolio </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section>
+        <div class="banner-img" style="background-image: url('img/1.jpg')">
+            <div class="banner-txt">
+                <h3 class="tracking-in-contract-bck"> Hi, I am Dako <br> I am Front-End Developer <br> From
+                    Georgia, Tbilisi </h3>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section id="about">
+        <div class="container about-container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 profile-img">
+                    <img src="img/profile.jpg">
+                    <a href="mailto:dako.sidamonidze@gmail.com"> Email: dako.sidamonidze@gmail.com </a>
+                </div>
+
+                <div class="col-lg-8 col-md-12 about-info">
+
+                    <h4> Profile </h4>
+                    <p>
+                        I am self-reliant, motivated, sociable and active. Able to work alone. Productive and
+                        well-organized. High sense of responsibility. Strong communication and analytical skills.
+                        Ability to work in a team.
+                    </p>
+
+
+                    <h4> Experience </h4>
+                    <p>
+                        I graduated Georgian Technical University. Completed web development course at Geolab. I was
+                        intern at the same company and had several projects. I finished internship and now work in
+                        Geolab. Some of my projects include: trifecta.ge – (event management company), Online Iliauni –
+                        (university portal), Wedding – (wedding planning and organization portal)
+
+                    </p>
+
+
+                    <h4> Skills </h4>
+                    <ul style="list-style-type:square">
+                        <li> HTML </li>
+                        <li> CSS </li>
+                        <li> JavaScript </li>
+                        <li> jQuery </li>
+                        <li> Bootstrap </li>
+                        <li> Responsive Web Design </li>
+                        <li> Adobe Illustrator / Adobe Photoshop </li>
+                        <li> GitHub / Bitbucket </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="portfolio">
+
+        <div class="container text-left portfolio-txt">
+            <h2>
+                portfolio
+            </h2>
+            <hr align="left" class="line">
+        </div>
+
+        <div class="container-fluid">
+            <div id="filters" class="button-group filters-button-group text-center isotope-header">
+                <!-- <button class="button is-checked border-0 bg-white isotope-txt text-uppercase" data-filter="*">All</button> -->
+
+                <button class="button border-0 is-checked isotope-txt text-uppercase" data-filter=".books"> Wedding
+                </button>
+                <button class="button border-0 isotope-txt text-uppercase" data-filter=".flyers"> Trifecta
+                </button>
+                <button class="button border-0 isotope-txt text-uppercase" data-filter=".logos"> Cars </button>
+                <button class="button border-0 isotope-txt text-uppercase" data-filter=".websites"> Christmas
+                </button>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <div class="row grid data-isotope">
+
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 grid-item books p-1" data-category="books">
+                    <a href="img/wedding/1.jpg" data-fancybox="images">
+                        <div style="background-image: url(img/wedding/11.jpg)" class="isotope-img"></div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 grid-item books p-1" data-category="books">
+                    <a href="img/wedding/2.jpg" data-fancybox="images">
+                        <div style="background-image: url(img/wedding/22.jpg)" class="isotope-img"></div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 grid-item books p-1" data-category="books">
+                    <a href="img/wedding/3.jpg" data-fancybox="images">
+                        <div style="background-image: url(img/wedding/33.jpg)" class="isotope-img"></div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 grid-item books p-1" data-category="books">
+                    <a href="img/wedding/4.jpg" data-fancybox="images">
+                        <div style="background-image: url(img/wedding/44.jpg)" class="isotope-img"></div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 grid-item books p-1" data-category="books">
+                    <a href="img/wedding/5.jpg" data-fancybox="images">
+                        <div style="background-image: url(img/wedding/55.jpg)" class="isotope-img"></div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 grid-item books p-1" data-category="books">
+                    <a href="img/wedding/6.jpg" data-fancybox="images">
+                        <div style="background-image: url(img/wedding/66.jpg)" class="isotope-img"></div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 grid-item books p-1" data-category="books">
+                    <a href="img/wedding/7.jpg" data-fancybox="images">
+                        <div style="background-image: url(img/wedding/77.jpg)" class="isotope-img"></div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 grid-item books p-1" data-category="books">
+                    <a href="img/wedding/8.jpg" data-fancybox="images">
+                        <div style="background-image: url(img/wedding/88.jpg)" class="isotope-img"></div>
+                    </a>
+                </div>
+
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 grid-item websites p-1" data-category="websites">
+                    <a href="img/christmas/1.jpg" data-fancybox="images">
+                        <div style="background-image: url(img/christmas/11.jpg)" class="isotope-img"></div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 grid-item websites p-1" data-category="websites">
+                    <a href="img/christmas/2.jpg" data-fancybox="images">
+                        <div style="background-image: url(img/christmas/22.jpg)" class="isotope-img"></div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 grid-item websites p-1" data-category="websites">
+                    <a href="img/christmas/3.jpg" data-fancybox="images">
+                        <div style="background-image: url(img/christmas/33.jpg)" class="isotope-img"></div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 grid-item websites p-1" data-category="websites">
+                    <a href="img/christmas/4.jpg" data-fancybox="images">
+                        <div style="background-image: url(img/christmas/44.jpg)" class="isotope-img"></div>
+                    </a>
+                </div>
+
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 grid-item flyers p-1" data-category="flyers">
+                    <a href="img/trifecta/1.jpg" data-fancybox="images">
+                        <div style="background-image: url(img/trifecta/11.jpg)" class="isotope-img"></div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 grid-item flyers p-1" data-category="flyers">
+                    <a href="img/trifecta/2.jpg" data-fancybox="images">
+                        <div style="background-image: url(img/trifecta/22.jpg)" class="isotope-img"></div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 grid-item flyers p-1" data-category="flyers">
+                    <a href="img/trifecta/3.jpg" data-fancybox="images">
+                        <div style="background-image: url(img/trifecta/33.jpg)" class="isotope-img"></div>
+                    </a>
+                </div>
+
+
+
+
+
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 grid-item logos p-1" data-category="logos">
+                    <a href="img/cars/1.jpg" data-fancybox="images">
+                        <div style="background-image: url(img/cars/11.jpg)" class="isotope-img"></div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 grid-item logos p-1" data-category="logos">
+                    <a href="img/cars/2.jpg" data-fancybox="images">
+                        <div style="background-image: url(img/cars/22.jpg)" class="isotope-img"></div>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <footer class="mt-5" style="background: #322e2f">
+        <hr class="line1">
+        <div class="soc-icons text-center">
+            <a href="mailto:dako.sidamonidze@gmail.com" target="_blank"> <i class="far fa-envelope align-middle"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/dako-sidamonidze-674955b7/" target="_blank"> <i class="fab fa-linkedin-in">
+                </i> </a>
+            <a href="https://github.com/dakoshka" target="_blank"> <i class="fab fa-github align-middle"></i> </a>
+
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/isotope-v3.0.5.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
